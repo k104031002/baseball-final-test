@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--black);
+  padding-block: 60px;
+  color: var(--gray-light);
+  & .container1 {
+    .logo-box {
+      width: 34px;
+      height: 34px;
+
+      & .img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  /* & .li-first {
+    font-size: var(--h6);
+    font-weight: bold;
+  }
+  & .li-other {
+    font-size: var(--p);
+    margin-bottom: 15px;
+  } */
+  .logo-con {
+    margin-right: 200px;
+  }
+}
+
+.footer li:nth-child(1) {
+  font-size: var(--h6);
+  font-weight: bold;
+}
+.footer li {
+  font-size: var(--p);
+  margin-bottom: 15px;
+}
