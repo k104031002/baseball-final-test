@@ -1,8 +1,7 @@
 .footer {
-  background-color: var(--black);
   padding-block: 60px;
   color: var(--gray-light);
-  & .container1 {
+  & .container {
     .logo-box {
       width: 34px;
       height: 34px;
@@ -14,14 +13,6 @@
       }
     }
   }
-  /* & .li-first {
-    font-size: var(--h6);
-    font-weight: bold;
-  }
-  & .li-other {
-    font-size: var(--p);
-    margin-bottom: 15px;
-  } */
   .logo-con {
     margin-right: 200px;
   }
@@ -34,4 +25,12 @@
 .footer li {
   font-size: var(--p);
   margin-bottom: 15px;
+}
+.footer nav {
+  width: 100%;
+  max-width: 1440px;
+}
+.navbox {
+  width: 100%;
+  max-width: 966px;
 }

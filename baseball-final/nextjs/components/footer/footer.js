@@ -1,5 +1,5 @@
 import React from 'react'
-import '@/node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 import styles from './footer.module.css'
 import { MdOutlinePhoneInTalk } from 'react-icons/md'
 import { CiCalendar, CiMail } from 'react-icons/ci'
@@ -8,10 +8,10 @@ export default function Footer() {
   return (
     <>
       <footer
-        className={`footer container-fluid d-flex justify-content-center ${styles.footer}`}
+        className={`footer container-fluid bg-dark d-flex justify-content-center ${styles.footer}`}
       >
-        <nav className="container1 " style={{ width: 1440 }}>
-          <div className="topbox d-flex align-items-start justify-content-between">
+        <nav className="container">
+          <div className="topbox d-flex align-items-start justify-content-between mb-3">
             <div className="logo-con d-flex align-items-center gap-1">
               <div className="logo-box">
                 <img src="/images/logo.png" alt="" className="img" />
@@ -19,8 +19,7 @@ export default function Footer() {
               <h4>棒球好玩家</h4>
             </div>
             <div
-              className="navbox d-sm-flex d-none justify-content-between"
-              style={{ width: 966 }}
+              className={`navbox d-sm-flex d-none justify-content-between ${styles.navbox}`}
             >
               <ul className="list-unstyled">
                 <li>訓練課程</li>

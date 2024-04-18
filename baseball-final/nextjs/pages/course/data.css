@@ -1,0 +1,12 @@
+.react-datepicker{
+    background-color: var(--main);
+
+}
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  margin-top: 0;
+  color: #120707;
+  font-weight: bold;
+  font-size: 0.944rem;
+}

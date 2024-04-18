@@ -1,9 +1,11 @@
 :root {
-  --black: #111;
+  --black: #000;
   --main: #ee3e27;
+  --active: #d4321c;
   --text: #4e5052;
-  --gray: #000;
+  --gray: #111;
   --gray-light: #f6f6f6;
+  --brown: #625852;
   --h1: 40px;
   --h2: 32px;
   --h3: 27px;
@@ -13,7 +15,7 @@
   --p: 14px;
 }
 body {
-  width: 1920px;
+  max-width: 1920px;
 
   h1,
   h2,
@@ -30,26 +32,30 @@ body {
   }
 
   h2 {
-    font-style: 32px;
+    font-size: 32px;
   }
 
   h3 {
-    font-style: 27px;
+    font-size: 27px;
   }
 
   h4 {
-    font-style: 24px;
+    font-size: 24px;
   }
 
   h5 {
-    font-style: 19px;
+    font-size: 19px;
   }
 
   h6 {
-    font-style: 16px;
+    font-size: 16px;
   }
 
   p {
-    font-style: 14px;
+    font-size: 14px;
+  }
+  input[type='checkbox'],
+  input[type='radio'] {
+    accent-color: var(--main);
   }
 }

@@ -1,0 +1,71 @@
+.navberImgSun {
+  width: 100%;
+  height: 628px;
+  margin-bottom: 85px;
+  /* & img{
+        width: 100%;
+        height: 100%;
+    } */
+}
+
+.SearchSun {
+  margin-bottom: 45px;
+}
+
+.SearchBtnSun {
+  color: #fff;
+  background-color: #91857f;
+}
+
+.hr {
+  border-color: #000000; /* 將顏色屬性改為 border-color */
+  margin-bottom: 85px;
+}
+
+.main2Sun {
+  margin-top: 85px;
+}
+
+.filterSun {
+  width: 297px;
+  margin-right: 122px;
+}
+
+.TypeCardSun {
+  width: 41px;
+  height: 71px;
+  display: grid;
+  margin-left: 25px;
+  place-items: center;
+  /* & img{
+        width: 25px;
+        height: 25px;
+    } */
+}
+
+.TypeSun {
+  margin-bottom: 16px;
+}
+
+.CourseCardSun {
+  width: 1002px; /* 添加適當的單位 */
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+  /* & img{
+        width: 203px;
+        height: 218px;
+        margin-right: 90px;
+    } */
+}
+.CourseCardTextSun {
+  /* & p {
+    width: auto;
+    margin-bottom: 4px;
+  } */
+}
+.teacherText {
+  color: #ee3e27;
+}
+.btnBox {
+  width: 297px;
+}

@@ -1,9 +1,8 @@
 .header {
-  background-color: var(--black);
   padding-block: 20px;
   color: var(--gray-light);
-  & .container1 {
-    max-width: 1440px;
+  & .container {
+    width: 100%;
 
     & .logo-box {
       width: 34px;
